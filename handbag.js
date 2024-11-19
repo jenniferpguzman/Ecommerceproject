@@ -29,8 +29,8 @@ let handBags = [{
     "price": "$269"
 },
 {
-     "image": "/images/mediumflap_bag.avif",
-    "bagName": "Flap Convertible Crossbody",
+     "image": "/images/burgandy.avif",
+    "bagName": "Medium Flap Convertible Crossbody",
     "price": "$99"
 },
 {
