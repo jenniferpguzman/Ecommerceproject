@@ -21,11 +21,11 @@ const comments = document.getElementById("comment_section").value.trim();
     } else if (!emailRegex.test(email)){
         errors.push("Enter a valid email address.");
     }
-    const phoneRegex = /^[+\d]?(?:[\d-.\s()]*)$/;
+    const phoneRegex = /^\d+$/;
     if (phone === ""){
         errors.push("phone number required.");
     } else if (!phoneRegex.test(phone)){
-        errors.push("enter a valid phone number");
+        errors.push("enter a valid phone number(only numbers allowed)");
     }
 
     if (comments === ""){
