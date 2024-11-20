@@ -1,4 +1,6 @@
-[{
+{
+    "handbags":[
+{
     "image": "/images/white_bag.png",
     "bagName": "Medium Flap Convertible Crossbody",
     "price": "$99"
@@ -58,4 +60,5 @@
     "bagName": "Pearl Medium Convertible Crossbody",
     "price": "$115"
 }
-]
+] 
+}
