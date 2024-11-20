@@ -37,7 +37,7 @@ const comments = document.getElementById("comment_section").value.trim();
         errors.forEach(function(error){
             errorMessagesHtml += "<li>" + error + "</li>";
         });
-        errorMessagesHtml += "</ul>";
+        errorMessagesHtml += errorsMessagesHtml;
         document.getElementById("errorMessages").innerHTML = errorMessagesHtml;
         return false;
     }
